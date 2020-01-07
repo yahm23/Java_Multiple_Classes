@@ -37,10 +37,12 @@ public class Library {
     }
 
 
-    public void removeBook(Book book) {
+    public Book removeBook(Book book) {
         if (collection.size() !=0 ){
             collection.remove(book);
             this.capacity +=1;
+            return book;
         }
+        else {return null;}
     }
 }

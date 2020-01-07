@@ -24,10 +24,12 @@ public class BorrowedTest {
         assertEquals(0,borrowedBooks.countBooks());
     }
 
-//    @Test
-//    public void canAddBooktoBorrowed(){
-//        borrowedBooks.addBook(book1,library)
-//        assertEquals(0,borrowedBooks.countBooks());
-//    }
+    @Test
+    public void canAddBooktoBorrowed(){
+        library.addBook(book1);
+        borrowedBooks.addBook(book1,library);
+        assertEquals(1,borrowedBooks.countBooks());
+        assertEquals(0,library.countBooks());
+    }
 
 }
