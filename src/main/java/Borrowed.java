@@ -5,6 +5,11 @@ public class Borrowed {
 //    private Book book1;
 
     public Borrowed(){
+        borrowedBooks = new ArrayList<Book>();
+    }
 
+
+    public int countBooks() {
+        return this.borrowedBooks.size();
     }
 }
