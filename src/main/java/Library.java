@@ -37,6 +37,10 @@ public class Library {
     }
 
 
-
-
+    public void removeBook(Book book) {
+        if (collection.size() !=0 ){
+            collection.remove(book);
+            this.capacity +=1;
+        }
+    }
 }

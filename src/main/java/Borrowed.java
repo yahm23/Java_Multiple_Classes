@@ -8,8 +8,14 @@ public class Borrowed {
         borrowedBooks = new ArrayList<Book>();
     }
 
-
     public int countBooks() {
         return this.borrowedBooks.size();
     }
+
+//
+//    public void addBook(Book book, Library library) {
+//        if (library.countBooks() != 0){
+//            library.
+//        }
+//    }
 }

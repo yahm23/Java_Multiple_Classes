@@ -23,4 +23,11 @@ public class BorrowedTest {
     public void canCountBookinLists(){
         assertEquals(0,borrowedBooks.countBooks());
     }
+
+//    @Test
+//    public void canAddBooktoBorrowed(){
+//        borrowedBooks.addBook(book1,library)
+//        assertEquals(0,borrowedBooks.countBooks());
+//    }
+
 }
