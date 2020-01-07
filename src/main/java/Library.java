@@ -23,4 +23,15 @@ public class Library {
     public int countStock() {
         return this.capacity;
     }
+
+
+    public boolean stockAvailable() {
+        if(this.capacity >0){
+            return true;
+        }
+        else {return false;}
+    }
+
+    
+
 }

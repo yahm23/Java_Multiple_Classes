@@ -30,7 +30,11 @@ public class LibraryTest {
     @Test
     public void hasStockCapacity(){
         assertEquals(50,library.countStock());
+    }
 
+    @Test
+    public void stockAvailable(){
+        assertEquals(true,library.stockAvailable());
     }
 
 
