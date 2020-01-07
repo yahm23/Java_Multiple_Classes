@@ -13,9 +13,9 @@ public class Borrowed {
     }
 
 //
-//    public void addBook(Book book, Library library) {
-//        if (library.countBooks() != 0){
-//            library.
-//        }
-//    }
+    public void addBook(Book book, Library library) {
+        if (library.countBooks() != 0){
+            library.removeBook(book);
+        }
+    }
 }
