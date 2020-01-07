@@ -23,19 +23,19 @@ public class LibraryTest {
     public void canAddBookToCollection(){
         library.addBook(book1);
         library.addBook(book2);
-        assertEquals(1,library.countBooks());
+        assertEquals(2,library.countBooks());
 
     }
-//
-//    @Test
-//    public void hasStockCapacity(){
-//        assertEquals(50,library.countStock());
-//    }
-//
-//    @Test
-//    public void stockAvailable(){
-//        assertEquals(true,library.stockAvailable());
-//    }
+
+    @Test
+    public void hasStockCapacity(){
+        assertEquals(50,library.countStock());
+    }
+
+    @Test
+    public void stockAvailable(){
+        assertEquals(true,library.stockAvailable());
+    }
 
 
 }

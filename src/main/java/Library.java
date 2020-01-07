@@ -7,8 +7,8 @@ public class Library {
 
     public Library(){
         collection = new ArrayList<Book>();
-        capacity = 1 ;
-//        capacity = 50 ;
+//        capacity = 1 ;
+          capacity = 50 ;
     }
 
 
